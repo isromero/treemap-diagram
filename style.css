@@ -1,0 +1,33 @@
+html, body {
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#map {
+    width: 1200px;
+    height: 800px;
+}
+
+#legend {
+    margin-left: 5rem
+}
+
+#tooltip {
+    position: absolute;
+    padding: 0.5rem;
+    width: auto;
+    height: auto;
+    background-color: bisque;
+    border-radius: 0.3rem;
+    pointer-events: none;
+    transition: opacity 0.3s ease-in-out;
+    font-size: 0.8rem;
+}
